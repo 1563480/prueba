@@ -37,6 +37,10 @@
             android:name="com.example.nwaster.HomeActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.nwaster.NavActivity"
+            android:exported="false" />
+        <activity android:name="com.example.nwaster.AddListForm" />
+        <activity
             android:name="com.example.nwaster.MainActivity"
             android:exported="true" >
             <intent-filter>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cives\\.gradle\\caches\\transforms-3\\0433d5a23e057714b130adae28439db9\\transformed\\jetified-play-services-auth-20.1.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\0433d5a23e057714b130adae28439db9\\transformed\\jetified-play-services-auth-20.1.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cives\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

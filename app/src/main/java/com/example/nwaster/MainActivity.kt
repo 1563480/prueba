@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showHome() {
-        val homeIntent = Intent(this, HomeActivity::class.java).apply {
+        val homeIntent = Intent(this, NavActivity::class.java).apply {
         }
         startActivity(homeIntent)
     }

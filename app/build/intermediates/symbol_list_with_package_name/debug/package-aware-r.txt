@@ -265,6 +265,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1246,6 +1250,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1824,6 +1829,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color underLine
 color white
 color whiteTextColor
 dimen abc_action_bar_content_inset_material
@@ -2531,14 +2537,22 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable cursor_color
+drawable delete
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit
 drawable email
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_add_24
+drawable ic_baseline_food_bank_24
+drawable ic_baseline_home_24
+drawable ic_baseline_list_24
+drawable ic_baseline_map_24
+drawable ic_baseline_person_24
 drawable ic_clock_black_24dp
 drawable ic_google_plus
 drawable ic_keyboard_black_24dp
@@ -2555,6 +2569,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable listname
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2584,6 +2599,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable notes
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2597,6 +2613,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable password
+drawable remove
 drawable side_nav_bar
 drawable test_custom_background
 drawable test_level_drawable
@@ -2678,6 +2695,7 @@ id activity_chooser_view_content
 id add
 id addProduct
 id addStock
+id add_list
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2713,7 +2731,9 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_submit
 id buttonPanel
+id button_add_stock
 id buttonback
 id cache_measures
 id callMeasure
@@ -2786,6 +2806,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawerLayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2797,6 +2818,7 @@ id editTextPassword
 id edit_query
 id elastic
 id emailEditText
+id email_header
 id end
 id endToStart
 id enterAlways
@@ -2816,6 +2838,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frameLayout
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2865,7 +2888,10 @@ id line3
 id linear
 id listMode
 id listProducts
+id list_delete
+id list_edit
 id list_item
+id ll_main_layout
 id masked
 id match_constraint
 id match_parent
@@ -2923,12 +2949,19 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id nameText
 id nav_controller_view_tag
+id nav_diet
 id nav_gallery
 id nav_home
 id nav_host_fragment_container
+id nav_map
+id nav_profile
+id nav_shoppinglist
 id nav_slideshow
+id nav_view
+id nav_warehouse
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2947,6 +2980,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -2977,6 +3011,7 @@ id radio
 id ratio
 id rectangles
 id register
+id remove
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3011,6 +3046,7 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
+id shopping_lists
 id shortcut
 id showCustom
 id showHome
@@ -3106,7 +3142,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_name_header
 id username_icon
+id val_name_list
+id val_notes
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3235,6 +3274,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_diet
+layout fragment_map_location
+layout fragment_profile
+layout fragment_warehouse
+layout list_row
+layout listform
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3281,6 +3326,8 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header
+layout nav_main
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3290,6 +3337,8 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout shopping_list_fragment
+layout shopping_lists
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -3309,6 +3358,8 @@ layout text_view_without_line_height
 menu activity_main_drawer
 menu example_menu
 menu example_menu2
+menu list_menu
+menu nav_menu
 menu stock
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -3353,6 +3404,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string close
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -3477,6 +3529,7 @@ string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -4546,6 +4599,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

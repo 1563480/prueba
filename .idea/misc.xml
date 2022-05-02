@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/activity_add_product_stock.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/activity_addproduct.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/activity_register.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/activity_stock.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/fragment_diet.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/fragment_map_location.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/fragment_profile.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/fragment_warehouse.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/list_row.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/listform.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/nav_header.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/nav_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/shopping_list_fragment.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/layout/shopping_lists.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/menu/list_menu.xml" value="0.1" />
+        <entry key="..\:/Users/X550VX/Desktop/4 CURSO/2 SEMESTRE/LIS/Prueba Nwaste GIT/prueba/app/src/main/res/menu/nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/cives/AndroidStudioProjects/Nwaste-Auth/app/src/main/res/layout/activity_add_product_stock.xml" value="0.33" />
         <entry key="..\:/Users/cives/AndroidStudioProjects/Nwaste-Auth/app/src/main/res/layout/activity_add_stock.xml" value="0.12817028985507245" />
         <entry key="..\:/Users/cives/AndroidStudioProjects/Nwaste-Auth/app/src/main/res/layout/activity_addproduct.xml" value="0.15" />
