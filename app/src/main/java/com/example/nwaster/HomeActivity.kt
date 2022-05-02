@@ -34,15 +34,17 @@ class HomeActivity : AppCompatActivity() {
 
         this.db.collection("users").document(user?.email.toString())
             .get().addOnSuccessListener { result ->
-                var productosStock2 = arrayListOf<String>()
+                if (user != null) {
+                    println(user.email)
+                }
 
-                var arrayProductos:HashMap<String,String> = result.data?.getValue("productos") as HashMap<String, String>
+                var arrayProductos:HashMap<String,String> = result.data!!.getValue("productos") as HashMap<String, String>
                 var productosStock: Set<String> = arrayProductos.keys
 
-                println(arrayProductos)
                 val listStock = findViewById<ListView>(R.id.stockProducts)
                 arrayAdapter = ArrayAdapter(this,android.R.layout.simple_list_item_1, productosStock.toTypedArray())
                 listStock.adapter = arrayAdapter
+
             }
 
 

@@ -9,11 +9,16 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
     private val db = Database()
+    private val db2 = FirebaseFirestore.getInstance()
+
 
     private val GOOGLE_SIGN_IN = 100
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +54,8 @@ class MainActivity : AppCompatActivity() {
 
 
         googleButton.setOnClickListener() {
+
+
             val googleConf = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
@@ -56,6 +63,11 @@ class MainActivity : AppCompatActivity() {
             val googleClient = GoogleSignIn.getClient(this, googleConf)
             googleClient.signOut()
             startActivityForResult(googleClient.signInIntent, GOOGLE_SIGN_IN)
+            val user = Firebase.auth.currentUser
+            if (user != null) {
+                user.email?.let { it1 -> db.getUser(it1) }
+            }
+
 
 
         }
@@ -100,7 +112,7 @@ class MainActivity : AppCompatActivity() {
                     FirebaseAuth.getInstance().signInWithCredential(credential).addOnCompleteListener {
                         if (it.isSuccessful) {
                             showHome()
-                            db.getUser(account.email.toString())
+                            //db.getUser(account.email.toString())
                         }
                     }
                 }

@@ -22,10 +22,11 @@ class Database {
     fun addUser(email : String) {
 
         if (this.connection!=null) {
+            val aux = hashMapOf<String, String>()
             this.connection!!.collection("users").document(email).set(
                 hashMapOf(
                     "email" to email,
-                    "productos" to arrayListOf<Product>()
+                    "productos" to aux
                 )
             )
         }
