@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929246978142",
+    "project_id": "nwaste-project",
+    "storage_bucket": "nwaste-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929246978142:android:b5628a25740c1ca6ce94cf",
+        "android_client_info": {
+          "package_name": "com.example.nwaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929246978142-6gs5th4u94a3aqrbv4tplijkafr0uuvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYIUwKL36UWhMvi0y2X9OnGiphnPj6vvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929246978142-6gs5th4u94a3aqrbv4tplijkafr0uuvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

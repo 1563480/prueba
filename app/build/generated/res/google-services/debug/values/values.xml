@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">929246978142-6gs5th4u94a3aqrbv4tplijkafr0uuvp.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">929246978142</string>
+    <string name="google_api_key" translatable="false">AIzaSyDYIUwKL36UWhMvi0y2X9OnGiphnPj6vvM</string>
+    <string name="google_app_id" translatable="false">1:929246978142:android:b5628a25740c1ca6ce94cf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDYIUwKL36UWhMvi0y2X9OnGiphnPj6vvM</string>
+    <string name="google_storage_bucket" translatable="false">nwaste-project.appspot.com</string>
+    <string name="project_id" translatable="false">nwaste-project</string>
+</resources>

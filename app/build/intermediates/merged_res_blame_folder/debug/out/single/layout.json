@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_stock.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\nav_header_stock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_stock.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_add_stock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_stock.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\app_bar_stock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_stock.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_stock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_stock.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\content_stock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_addproduct.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_addproduct.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_product_stock.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_add_product_stock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\cives\\AndroidStudioProjects\\Nwaste-Auth\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    }
+]

@@ -1,0 +1,12 @@
+com/example/nwaster/BuildConfig.java
+ com.example.nwaster.BuildConfig
+com/example/nwaster/databinding/ActivityStockBinding.java
+ com.example.nwaster.databinding.ActivityStockBinding
+com/example/nwaster/databinding/ActivityMainBinding.java
+ com.example.nwaster.databinding.ActivityMainBinding
+com/example/nwaster/databinding/ActivityAddproductBinding.java
+ com.example.nwaster.databinding.ActivityAddproductBinding
+com/example/nwaster/databinding/ActivityRegisterBinding.java
+ com.example.nwaster.databinding.ActivityRegisterBinding
+com/example/nwaster/databinding/ActivityAddProductStockBinding.java
+ com.example.nwaster.databinding.ActivityAddProductStockBinding
