@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\2b070e4a20c8d018d28a838a59af7307\\transformed\\navigation-ui-2.3.5\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\87ebe8a23b642661091e11667ebabe52\\transformed\\navigation-ui-2.4.2\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -105,6 +105,23 @@
                         "startOffsets": "369,474,574,682,766,868,984,1063,1141,1232,1326,1420,1514,1614,1707,1802,1895,1986,2078,2159,2264,2367,2465,2570,2672,2774,2928,9476",
                         "endColumns": "104,99,107,83,101,115,78,77,90,93,93,93,99,92,94,92,90,91,80,104,102,97,104,101,101,153,96,81",
                         "endOffsets": "469,569,677,761,863,979,1058,1136,1227,1321,1415,1509,1609,1702,1797,1890,1981,2073,2154,2259,2362,2460,2565,2667,2769,2923,3020,9553"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\17c27dbe1c298855a427b0f5b3a30688\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    },
+                    "to": {
+                        "startLines": "111,112,113,114",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9659,9715,9765,9900",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "9710,9760,9895,9985"
                     }
                 }
             ]

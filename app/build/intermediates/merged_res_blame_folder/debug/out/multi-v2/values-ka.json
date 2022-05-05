@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\87ebe8a23b642661091e11667ebabe52\\transformed\\navigation-ui-2.4.2\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,117",
+                        "endOffsets": "159,277"
+                    },
+                    "to": {
+                        "startLines": "104,105",
+                        "startColumns": "4,4",
+                        "startOffsets": "9483,9592",
+                        "endColumns": "108,117",
+                        "endOffsets": "9587,9705"
+                    }
+                },
+                {
                     "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\ccd8163d9061eb4f72e1c70401559cd4\\transformed\\core-1.7.0\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2",
@@ -54,23 +71,6 @@
                         "endLines": "5,33,34,35,36,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,106",
                         "endColumns": "12,83,98,124,87,66,96,68,62,86,65,59,68,60,53,114,58,59,53,71,129,87,83,107,77,75,93,66,65,72,77,85,72,77,77,74,89,74,93,97,73,76,99,52,67,88,88,61,64,62,106,97,99,98,79",
                         "endOffsets": "273,3060,3159,3284,3372,5659,5756,5825,5888,5975,6041,6101,6170,6231,6285,6400,6459,6519,6573,6645,6775,6863,6947,7055,7133,7209,7303,7370,7436,7509,7587,7673,7746,7824,7902,7977,8067,8142,8236,8334,8408,8485,8585,8638,8706,8795,8884,8946,9011,9074,9181,9279,9379,9478,9785"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\2b070e4a20c8d018d28a838a59af7307\\transformed\\navigation-ui-2.3.5\\res\\values-ka\\values-ka.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,164",
-                        "endColumns": "108,117",
-                        "endOffsets": "159,277"
-                    },
-                    "to": {
-                        "startLines": "104,105",
-                        "startColumns": "4,4",
-                        "startOffsets": "9483,9592",
-                        "endColumns": "108,117",
-                        "endOffsets": "9587,9705"
                     }
                 },
                 {

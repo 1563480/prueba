@@ -9,6 +9,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="default_web_client_id2">929246978142-6gs5th4u94a3aqrbv4tplijkafr0uuvp.apps.googleusercontent.com</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>

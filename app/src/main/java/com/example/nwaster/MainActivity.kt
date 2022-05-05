@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
 
             val googleConf = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken(getString(R.string.default_web_client_id2))
                 .requestEmail()
                 .build()
             val googleClient = GoogleSignIn.getClient(this, googleConf)
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showHome() {
-        val homeIntent = Intent(this, NavActivity::class.java).apply {
+        val homeIntent = Intent(this, BottomNavActivity::class.java).apply {
         }
         startActivity(homeIntent)
     }

@@ -55,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\2b070e4a20c8d018d28a838a59af7307\\transformed\\navigation-ui-2.3.5\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\17c27dbe1c298855a427b0f5b3a30688\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "109,110,111,112",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8798,8847,8894,8987",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "8842,8889,8982,9052"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\87ebe8a23b642661091e11667ebabe52\\transformed\\navigation-ui-2.4.2\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

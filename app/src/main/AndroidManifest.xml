@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nwaster" >
+
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
 
     <application
         android:allowBackup="true"
@@ -8,9 +11,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat" >
+        android:theme="@style/Theme.NWASTE" >
         <activity
             android:name=".AddProductStock"
+            android:exported="false" />
+        <activity
+            android:name=".AddListForm"
             android:exported="false" />
         <activity
             android:name=".StockActivity"
@@ -24,7 +30,14 @@
         <activity
             android:name=".NavActivity"
             android:exported="false" />
-        <activity android:name=".AddListForm"/>
+        <activity
+            android:name=".BottomNavActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Lists.ShoppingListProducts"
+            android:exported="false" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true" >
@@ -34,6 +47,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

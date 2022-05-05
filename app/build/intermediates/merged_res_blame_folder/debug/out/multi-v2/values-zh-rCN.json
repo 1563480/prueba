@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\2b070e4a20c8d018d28a838a59af7307\\transformed\\navigation-ui-2.3.5\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\17c27dbe1c298855a427b0f5b3a30688\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,156",
-                        "endColumns": "100,102",
-                        "endOffsets": "151,254"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,238",
+                        "endColumns": "48,46,86,68",
+                        "endOffsets": "99,146,233,302"
                     },
                     "to": {
-                        "startLines": "104,105",
-                        "startColumns": "4,4",
-                        "startOffsets": "8335,8436",
-                        "endColumns": "100,102",
-                        "endOffsets": "8431,8534"
+                        "startLines": "109,110,111,112",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8788,8837,8884,8971",
+                        "endColumns": "48,46,86,68",
+                        "endOffsets": "8832,8879,8966,9035"
                     }
                 },
                 {
@@ -105,6 +105,23 @@
                         "endLines": "5,33,34,35,36,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,106",
                         "endColumns": "12,69,90,105,72,61,76,58,58,77,56,55,58,57,53,84,55,57,53,64,91,73,75,91,61,61,78,66,65,63,68,77,60,70,66,59,78,66,82,84,73,64,75,47,63,75,77,61,63,62,79,75,77,76,68",
                         "endOffsets": "247,2874,2965,3071,3144,5020,5097,5156,5215,5293,5350,5406,5465,5523,5577,5662,5718,5776,5830,5895,5987,6061,6137,6229,6291,6353,6432,6499,6565,6629,6698,6776,6837,6908,6975,7035,7114,7181,7264,7349,7423,7488,7564,7612,7676,7752,7830,7892,7956,8019,8099,8175,8253,8330,8603"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\87ebe8a23b642661091e11667ebabe52\\transformed\\navigation-ui-2.4.2\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,156",
+                        "endColumns": "100,102",
+                        "endOffsets": "151,254"
+                    },
+                    "to": {
+                        "startLines": "104,105",
+                        "startColumns": "4,4",
+                        "startOffsets": "8335,8436",
+                        "endColumns": "100,102",
+                        "endOffsets": "8431,8534"
                     }
                 }
             ]

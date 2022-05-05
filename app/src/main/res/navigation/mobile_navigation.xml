@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/navigation_warehouse">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.nwaster.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_warehouse"
+        android:name="com.example.nwaster.ui.warehouse.WarehouseFragment"
+        android:label="Warehouse"
+        tools:layout="@layout/fragment_warehouse" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.nwaster.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/navigation_lists"
+        android:name="com.example.nwaster.ui.Lists.ListsFragment"
+        android:label="Lists"
+        tools:layout="@layout/fragment_lists" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.nwaster.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/navigation_diet"
+        android:name="com.example.nwaster.ui.diet.DietFragment"
+        android:label="Diet"
+        tools:layout="@layout/fragment_diet" />
 </navigation>

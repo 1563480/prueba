@@ -36,7 +36,7 @@ class WarehouseFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view: View = inflater.inflate(R.layout.fragment_warehouse, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_warehouse2, container, false)
         val btn_extra : Button = view.findViewById(R.id.button_add_stock)
 
         btn_extra.setOnClickListener{
