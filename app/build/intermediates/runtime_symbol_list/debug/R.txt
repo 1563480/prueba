@@ -2691,6 +2691,7 @@ int drawable m3_tabs_background 0x7f0700a8
 int drawable m3_tabs_line_indicator 0x7f0700a9
 int drawable m3_tabs_rounded_line_indicator 0x7f0700aa
 int drawable m3_tabs_transparent_background 0x7f0700ab
+int drawable manually 0x7f0700d5
 int drawable material_cursor_drawable 0x7f0700ac
 int drawable material_ic_calendar_black_24dp 0x7f0700ad
 int drawable material_ic_clear_black_24dp 0x7f0700ae
@@ -2949,6 +2950,9 @@ int id enterAlways 0x7f0900d5
 int id enterAlwaysCollapsed 0x7f0900d6
 int id exitUntilCollapsed 0x7f0900d7
 int id expanable_btn_scan_barCode 0x7f0900d8
+int id expanable_btn_scan_barCode_lists 0x7f090257
+int id expanable_btn_scan_manual_lists 0x7f090258
+int id expanable_btn_scan_ocr_lists 0x7f090259
 int id expand_activities_button 0x7f0900d9
 int id expandable_fab 0x7f0900da
 int id expandable_fab_layout 0x7f0900db
@@ -3147,6 +3151,7 @@ int id portrait 0x7f090199
 int id position 0x7f09019a
 int id postLayout 0x7f09019b
 int id priceText 0x7f09019c
+int id products_of_list 0x7f09025a
 int id progress_circular 0x7f09019d
 int id progress_horizontal 0x7f09019e
 int id proteinText 0x7f09019f

@@ -2692,6 +2692,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable manually
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2950,6 +2951,9 @@ id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expanable_btn_scan_barCode
+id expanable_btn_scan_barCode_lists
+id expanable_btn_scan_manual_lists
+id expanable_btn_scan_ocr_lists
 id expand_activities_button
 id expandable_fab
 id expandable_fab_layout
@@ -3148,6 +3152,7 @@ id portrait
 id position
 id postLayout
 id priceText
+id products_of_list
 id progress_circular
 id progress_horizontal
 id proteinText

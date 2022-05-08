@@ -17,6 +17,7 @@ class AddListForm: AppCompatActivity() {
 
         val submit_button : Button = findViewById(R.id.btn_submit)
         val val_name_list:EditText = findViewById(R.id.val_name_list)
+        val val_notes_list:EditText = findViewById(R.id.val_notes)
         submit_button.setOnClickListener{
             if (val_name_list.text.toString() == null || val_name_list.text.toString().length == 0)
             {
@@ -25,6 +26,7 @@ class AddListForm: AppCompatActivity() {
             else {
                 val returnIntent = Intent()
                 returnIntent.putExtra("name_list", val_name_list.text.toString())
+                returnIntent.putExtra("notes_list", val_notes_list.text.toString())
                 setResult(RESULT_OK, returnIntent)
                 finish()
             }

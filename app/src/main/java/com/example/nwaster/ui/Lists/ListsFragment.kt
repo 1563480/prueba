@@ -27,6 +27,7 @@ class ListsFragment : Fragment() {
     private val binding get() = _binding!!
 
     var shop_list: ArrayList<String> = arrayListOf("Warehouse")
+    var shop_list_notes: ArrayList<String> = arrayListOf("Default")
     var listView : ListView?=null
     private var arrayAdapter :ListViewAdapter?=null
 
@@ -34,8 +35,23 @@ class ListsFragment : Fragment() {
         if(activityResult.resultCode == Activity.RESULT_OK)
         {
             val name_list = activityResult.data?.getStringExtra("name_list")
+            val notes_list = activityResult.data?.getStringExtra("notes_list")
             Toast.makeText(view?.context,name_list, Toast.LENGTH_SHORT).show()
-            addItem(name_list!!)
+            addItem(name_list!!,notes_list!!)
+        }
+        else{
+            Toast.makeText(view?.context,"ERROR", Toast.LENGTH_SHORT).show()
+        }
+
+    }
+
+    private val FormLauncher2 = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ activityResult ->
+        if(activityResult.resultCode == Activity.RESULT_OK)
+        {
+            val list_products = activityResult.data?.getStringArrayListExtra("products_of_list")
+            Toast.makeText(view?.context,list_products.toString(), Toast.LENGTH_SHORT).show()
+            //AÑADIR PRODUCTOS SELECCIONADOS AL ARRAY DE PRODUCTOS REFERENTES A LA LISTA QUE YA HABÍA
+            //addItem(name_list!!,notes_list!!)
         }
         else{
             Toast.makeText(view?.context,"ERROR", Toast.LENGTH_SHORT).show()
@@ -73,10 +89,13 @@ class ListsFragment : Fragment() {
 
         listView?.setOnItemClickListener(AdapterView.OnItemClickListener { arg0, arg1, position, arg3 -> // TODO Auto-generated method stub
             val name: String = shop_list.get(position)
+            val notes: String = shop_list_notes.get(position)
 
             val intent = Intent(root.context, ShoppingListProducts::class.java)
             intent.putExtra("name_list", name)
-            startActivity(intent)
+            intent.putExtra("notes_list", notes)
+            FormLauncher2.launch(intent)
+            //startActivity(intent)
         })
         return root
     }
@@ -84,8 +103,11 @@ class ListsFragment : Fragment() {
     override fun onDestroyView() {
         var path : File = activity?.applicationContext!!.filesDir
         var writer : FileOutputStream = FileOutputStream(File(path,"lists.txt"))
+        var writer2 : FileOutputStream = FileOutputStream(File(path,"lists_notes.txt"))
         writer.write(shop_list.toString().toByteArray())
         writer.close()
+        writer2.write(shop_list_notes.toString().toByteArray())
+        writer2.close()
         super.onDestroyView()
         _binding = null
     }
@@ -93,17 +115,30 @@ class ListsFragment : Fragment() {
     fun loadContent(){
         var path : File = activity?.applicationContext!!.filesDir
         var readFrom : File = File(path, "lists.txt")
+        var readFrom2 : File = File(path, "lists_notes.txt")
+
+
         var content : ByteArray = ByteArray(readFrom.length().toInt())
+        var content2 : ByteArray = ByteArray(readFrom2.length().toInt())
 
         var stream : FileInputStream = FileInputStream(readFrom)
         stream.read(content)
+
+        var stream2 : FileInputStream = FileInputStream(readFrom2)
+        stream2.read(content2)
 
         var s : String = String(content)
         s = s.substring(1,s.length - 1)
 
         var split : List<String> = s.split(", ")
 
+        var s2 : String = String(content2)
+        s2 = s2.substring(1,s2.length - 1)
+
+        var split2 : List<String> = s2.split(", ")
+
         shop_list = ArrayList(split)
+        shop_list_notes = ArrayList(split2)
         arrayAdapter= ListViewAdapter(activity?.applicationContext, shop_list)
         listView?.adapter=arrayAdapter
         registerForContextMenu(listView!!)
@@ -111,14 +146,16 @@ class ListsFragment : Fragment() {
     }
 
 
-    fun addItem(item:String){
+    fun addItem(item:String,notes:String){
         shop_list.add(item)
+        shop_list_notes.add(notes)
         listView!!.adapter=arrayAdapter
     }
 
 
     fun removeItem(remove:Int){
         shop_list.removeAt(remove)
+        shop_list_notes.removeAt(remove)
         listView?.adapter=arrayAdapter
     }
 

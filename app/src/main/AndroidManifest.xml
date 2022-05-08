@@ -36,6 +36,9 @@
         <activity
             android:name=".ui.Lists.ShoppingListProducts"
             android:exported="false" />
+        <activity
+            android:name=".AddProductList"
+            android:exported="false" />
 
 
         <activity

@@ -1,31 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/ll_main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:background="@color/white"
         android:padding="25dp"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_list_products"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textColor="@color/underLine"
             android:textStyle="bold"
-            android:padding="30dp"
-            android:id="@+id/name_list_products"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:padding="30dp"
+            android:padding="5dp"
             android:id="@+id/notes_list_products"/>
+        <ListView
+            android:id="@+id/products_of_list"
+            android:layout_width="320dp"
+            android:layout_height="477dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
     </LinearLayout>
+
+    <com.nambimobile.widgets.efab.ExpandableFabLayout
+        android:id="@+id/expandable_fab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:paddingBottom="50dp"
+
+        >
+
+        <com.nambimobile.widgets.efab.Overlay
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:overlay_alpha="0.75"
+            app:overlay_color="#000000"
+            app:overlay_openingAnimationDurationMs="1000" />
+
+        <com.nambimobile.widgets.efab.ExpandableFab
+            android:id="@+id/expandable_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/ui_margin_medium"
+            android:layout_marginRight="@dimen/ui_margin_medium"
+            android:layout_marginBottom="@dimen/ui_margin_medium"
+            app:efab_closingAnticipateTension="0"
+            app:efab_color="#9374DE"
+            app:efab_icon="@drawable/ic_add"
+            app:efab_iconAnimationRotationDeg="-225"
+            />
+
+        <com.nambimobile.widgets.efab.FabOption
+            android:id="@+id/expanable_btn_scan_barCode_lists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_color="#5283F5"
+            app:fab_icon="@drawable/ic_barcode"
+            app:label_backgroundColor="#808080"
+            app:label_text="Bar Code"
+            app:label_textColor="#FFC0CB" />
+
+        <com.nambimobile.widgets.efab.FabOption
+            android:id="@+id/expanable_btn_scan_ocr_lists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_color="#5283F5"
+            app:fab_icon="@drawable/ic_ticket"
+            app:label_backgroundColor="#808080"
+            app:label_text="Scan Ticket"
+            app:label_textColor="#FFC0CB" />
+
+        <com.nambimobile.widgets.efab.FabOption
+            android:id="@+id/expanable_btn_scan_manual_lists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_color="#5283F5"
+            app:fab_icon="@drawable/manually"
+            app:label_backgroundColor="#808080"
+            app:label_text="Add manually"
+            app:label_textColor="#FFC0CB" />
+
+
+    </com.nambimobile.widgets.efab.ExpandableFabLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
