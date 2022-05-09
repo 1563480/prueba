@@ -28,16 +28,17 @@ class ListsFragment : Fragment() {
 
     var shop_list: ArrayList<String> = arrayListOf("Warehouse")
     var shop_list_notes: ArrayList<String> = arrayListOf("Default")
+    var shop_list_products: ArrayList<ArrayList<String>> = arrayListOf(arrayListOf("Hola","Buenas","Product3"))
     var listView : ListView?=null
     private var arrayAdapter :ListViewAdapter?=null
+
 
     private val FormLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ activityResult ->
         if(activityResult.resultCode == Activity.RESULT_OK)
         {
             val name_list = activityResult.data?.getStringExtra("name_list")
             val notes_list = activityResult.data?.getStringExtra("notes_list")
-            Toast.makeText(view?.context,name_list, Toast.LENGTH_SHORT).show()
-            addItem(name_list!!,notes_list!!)
+            addItem(name_list!!,notes_list!!, arrayListOf("null"))
         }
         else{
             Toast.makeText(view?.context,"ERROR", Toast.LENGTH_SHORT).show()
@@ -48,8 +49,13 @@ class ListsFragment : Fragment() {
     private val FormLauncher2 = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ activityResult ->
         if(activityResult.resultCode == Activity.RESULT_OK)
         {
-            val list_products = activityResult.data?.getStringArrayListExtra("products_of_list")
-            Toast.makeText(view?.context,list_products.toString(), Toast.LENGTH_SHORT).show()
+            var list_products = activityResult.data?.getStringArrayListExtra("products_of_list")
+            if (list_products.isNullOrEmpty())
+            {
+                list_products = arrayListOf("null")
+            }
+            val val_position = activityResult.data?.getIntExtra("position",0)
+            addProduct(list_products!!,val_position!!)
             //AÑADIR PRODUCTOS SELECCIONADOS AL ARRAY DE PRODUCTOS REFERENTES A LA LISTA QUE YA HABÍA
             //addItem(name_list!!,notes_list!!)
         }
@@ -90,10 +96,13 @@ class ListsFragment : Fragment() {
         listView?.setOnItemClickListener(AdapterView.OnItemClickListener { arg0, arg1, position, arg3 -> // TODO Auto-generated method stub
             val name: String = shop_list.get(position)
             val notes: String = shop_list_notes.get(position)
+            val products : ArrayList<String> = shop_list_products.get(position)
 
             val intent = Intent(root.context, ShoppingListProducts::class.java)
             intent.putExtra("name_list", name)
             intent.putExtra("notes_list", notes)
+            intent.putExtra("products_list", products)
+            intent.putExtra("position", position)
             FormLauncher2.launch(intent)
             //startActivity(intent)
         })
@@ -104,51 +113,83 @@ class ListsFragment : Fragment() {
         var path : File = activity?.applicationContext!!.filesDir
         var writer : FileOutputStream = FileOutputStream(File(path,"lists.txt"))
         var writer2 : FileOutputStream = FileOutputStream(File(path,"lists_notes.txt"))
+        var writer3 : FileOutputStream = FileOutputStream(File(path,"lists_products.txt"))
         writer.write(shop_list.toString().toByteArray())
         writer.close()
         writer2.write(shop_list_notes.toString().toByteArray())
         writer2.close()
+        writer3.write(shop_list_products.toString().toByteArray())
+        writer3.close()
         super.onDestroyView()
-        _binding = null
+        //_binding = null
     }
 
     fun loadContent(){
         var path : File = activity?.applicationContext!!.filesDir
         var readFrom : File = File(path, "lists.txt")
         var readFrom2 : File = File(path, "lists_notes.txt")
+        var readFrom3 : File = File(path, "lists_products.txt")
+
+        if (readFrom.exists() && readFrom2.exists() && readFrom3.exists()) {
 
 
-        var content : ByteArray = ByteArray(readFrom.length().toInt())
-        var content2 : ByteArray = ByteArray(readFrom2.length().toInt())
+            var content: ByteArray = ByteArray(readFrom.length().toInt())
+            var content2: ByteArray = ByteArray(readFrom2.length().toInt())
+            var content3: ByteArray = ByteArray(readFrom3.length().toInt())
 
-        var stream : FileInputStream = FileInputStream(readFrom)
-        stream.read(content)
+            var stream: FileInputStream = FileInputStream(readFrom)
+            stream.read(content)
 
-        var stream2 : FileInputStream = FileInputStream(readFrom2)
-        stream2.read(content2)
+            var stream2: FileInputStream = FileInputStream(readFrom2)
+            stream2.read(content2)
 
-        var s : String = String(content)
-        s = s.substring(1,s.length - 1)
+            var stream3: FileInputStream = FileInputStream(readFrom3)
+            stream3.read(content3)
 
-        var split : List<String> = s.split(", ")
+            var s: String = String(content)
+            s = s.substring(1, s.length - 1)
 
-        var s2 : String = String(content2)
-        s2 = s2.substring(1,s2.length - 1)
+            var split: List<String> = s.split(", ")
 
-        var split2 : List<String> = s2.split(", ")
+            var s2: String = String(content2)
+            s2 = s2.substring(1, s2.length - 1)
 
-        shop_list = ArrayList(split)
-        shop_list_notes = ArrayList(split2)
-        arrayAdapter= ListViewAdapter(activity?.applicationContext, shop_list)
-        listView?.adapter=arrayAdapter
-        registerForContextMenu(listView!!)
+            var split2: List<String> = s2.split(", ")
+
+            var s3: String = String(content3)
+            s3 = s3.substring(1, s3.length - 1)
+
+            var split3: List<String> = s3.split("[", "], ", "]")
+
+            var filteredList = split3.filter { x -> x.length > 0 }
+
+            shop_list_products = ArrayList(ArrayList())
+            for (i in filteredList) {
+                var split4: List<String> = i.split(", ")
+                val aux = ArrayList(split4)
+                shop_list_products.add(aux)
+                val x = 0
+            }
+
+            shop_list = ArrayList(split)
+            shop_list_notes = ArrayList(split2)
+            arrayAdapter = ListViewAdapter(activity?.applicationContext, shop_list)
+            listView?.adapter = arrayAdapter
+            registerForContextMenu(listView!!)
+        }
 
     }
 
 
-    fun addItem(item:String,notes:String){
+    fun addItem(item:String,notes:String,products:ArrayList<String>){
         shop_list.add(item)
         shop_list_notes.add(notes)
+        shop_list_products.add(products)
+        listView!!.adapter=arrayAdapter
+    }
+    fun addProduct(products:ArrayList<String>,position:Int){
+        shop_list_products.add(position,products)
+        shop_list_products.removeAt(position+1)
         listView!!.adapter=arrayAdapter
     }
 
@@ -156,6 +197,7 @@ class ListsFragment : Fragment() {
     fun removeItem(remove:Int){
         shop_list.removeAt(remove)
         shop_list_notes.removeAt(remove)
+        shop_list_products.removeAt(remove)
         listView?.adapter=arrayAdapter
     }
 

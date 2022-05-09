@@ -21,6 +21,7 @@ class ShoppingListProducts : AppCompatActivity() {
     private lateinit var binding: ShoppingListProductsBinding
     var products_list: ArrayList<String> = arrayListOf()
     var listView : ListView?=null
+    var position : Int = 0
     private var arrayAdapter :ListViewAdapter?=null
     private val FormLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ activityResult ->
         if(activityResult.resultCode == Activity.RESULT_OK)
@@ -43,6 +44,12 @@ class ShoppingListProducts : AppCompatActivity() {
 
         val name = intent.getStringExtra("name_list")
         val notes = intent.getStringExtra("notes_list")
+        val products = intent.getStringArrayListExtra("products_list")
+        position = intent.getIntExtra("position",0)
+        if (products!!.get(0) != "null")
+        {
+            products_list = products
+        }
 
         val nameText : TextView = binding.nameListProducts
         nameText.text = name
@@ -56,6 +63,7 @@ class ShoppingListProducts : AppCompatActivity() {
         }
         arrayAdapter= ListViewAdapter(this, products_list)
         listView?.adapter=arrayAdapter
+        registerForContextMenu(listView!!)
     }
 
     fun addItem(item:String){
@@ -68,8 +76,12 @@ class ShoppingListProducts : AppCompatActivity() {
         listView?.adapter=arrayAdapter
     }
 
-    override fun onCreateContextMenu(menu: ContextMenu, v: View, menuInfo: ContextMenu.ContextMenuInfo?) {
-        this.menuInflater?.inflate(R.menu.list_menu,menu)
+    override fun onCreateContextMenu(
+        menu: ContextMenu?,
+        v: View?,
+        menuInfo: ContextMenu.ContextMenuInfo?
+    ) {
+        menuInflater?.inflate(R.menu.list_menu,menu)
         super.onCreateContextMenu(menu, v, menuInfo)
     }
 
@@ -85,13 +97,8 @@ class ShoppingListProducts : AppCompatActivity() {
             R.id.list_edit->{
                 val info = item.menuInfo as AdapterView.AdapterContextMenuInfo
                 val index = info.position
-                if (index == 0){
-                    Toast.makeText(this, "Unable to delete Warehouse list", Toast.LENGTH_LONG).show()
-                }
-                else{
-                    //Añadir método para modificar nombre y notas de una lista
-                    Toast.makeText(this, "Editing list...", Toast.LENGTH_LONG).show()
-                }
+                Toast.makeText(this, "Editing product...", Toast.LENGTH_LONG).show()
+
                 return true
             }
             else -> return super.onContextItemSelected(item)
@@ -103,6 +110,7 @@ class ShoppingListProducts : AppCompatActivity() {
     override fun onBackPressed() {
         val returnIntent = Intent()
         returnIntent.putExtra("products_of_list", products_list)
+        returnIntent.putExtra("position", position)
         setResult(RESULT_OK, returnIntent)
         finish()
         super.onBackPressed()

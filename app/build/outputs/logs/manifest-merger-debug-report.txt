@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\X550VX\.gradle\caches\transforms-3\c7f5878f3f16df7b4bbf928167f1cc48\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\X550VX\.gradle\caches\transforms-3\393d5a137454ab32674f790a8fe4f4e6\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\X550VX\.gradle\caches\transforms-3\fe8e3eadc55629ae7aa3b85a15c2c05d\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -92,22 +92,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\X550VX\.gradle\c
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\X550VX\.gradle\caches\transforms-3\1b59f59fb293d1838c0b3f0eb360da77\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\X550VX\.gradle\caches\transforms-3\ce6c77339383c3398bbce3ade547534f\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\X550VX\.gradle\caches\transforms-3\d32f6375958e5255526ef869fa5ade5c\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:2:11-69
@@ -304,7 +304,7 @@ INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\p
 		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:6:5-73
 		INJECTED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:8:5-51:19
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:8:5-54:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\X550VX\.gradle\caches\transforms-3\17c27dbe1c298855a427b0f5b3a30688\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:46:5-54:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\X550VX\.gradle\caches\transforms-3\17c27dbe1c298855a427b0f5b3a30688\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:46:5-54:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.2] C:\Users\X550VX\.gradle\caches\transforms-3\dfb3b64618d079499d68a66c2fb98896\transformed\jetified-firebase-auth-ktx-21.0.2\AndroidManifest.xml:7:5-15:19
@@ -417,22 +417,28 @@ ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prue
 		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
 		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:37:13-58
-activity#com.example.nwaster.MainActivity
-ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:41:9-49:20
+activity#com.example.nwaster.AddProductList
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:42:13-41
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:40:13-43
+activity#com.example.nwaster.MainActivity
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:44:9-52:20
+	android:exported
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:45:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from C:\Users\X550VX\Desktop\4 CURSO\2 SEMESTRE\LIS\Prueba Nwaste GIT\prueba\app\src\main\AndroidManifest.xml:50:27-74
 uses-permission#android.permission.CAMERA
 ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\X550VX\.gradle\caches\transforms-3\17c27dbe1c298855a427b0f5b3a30688\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:22:5-65
 	android:name

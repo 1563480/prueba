@@ -68,6 +68,9 @@
             android:name="com.example.nwaster.ui.Lists.ShoppingListProducts"
             android:exported="false" />
         <activity
+            android:name="com.example.nwaster.AddProductList"
+            android:exported="false" />
+        <activity
             android:name="com.example.nwaster.MainActivity"
             android:exported="true" >
             <intent-filter>
