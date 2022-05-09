@@ -25,6 +25,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView addProduct;
 
   @NonNull
+  public final TextView btnResetPassword;
+
+  @NonNull
   public final EditText emailEditText;
 
   @NonNull
@@ -43,11 +46,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView usernameIcon;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull TextView addProduct,
-      @NonNull EditText emailEditText, @NonNull TextView googleButton,
-      @NonNull EditText passwordEditText, @NonNull ImageView passwordIcon,
-      @NonNull TextView register, @NonNull ImageView usernameIcon) {
+      @NonNull TextView btnResetPassword, @NonNull EditText emailEditText,
+      @NonNull TextView googleButton, @NonNull EditText passwordEditText,
+      @NonNull ImageView passwordIcon, @NonNull TextView register,
+      @NonNull ImageView usernameIcon) {
     this.rootView = rootView;
     this.addProduct = addProduct;
+    this.btnResetPassword = btnResetPassword;
     this.emailEditText = emailEditText;
     this.googleButton = googleButton;
     this.passwordEditText = passwordEditText;
@@ -89,6 +94,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnResetPassword;
+      TextView btnResetPassword = ViewBindings.findChildViewById(rootView, id);
+      if (btnResetPassword == null) {
+        break missingId;
+      }
+
       id = R.id.emailEditText;
       EditText emailEditText = ViewBindings.findChildViewById(rootView, id);
       if (emailEditText == null) {
@@ -125,8 +136,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, addProduct, emailEditText,
-          googleButton, passwordEditText, passwordIcon, register, usernameIcon);
+      return new ActivityMainBinding((RelativeLayout) rootView, addProduct, btnResetPassword,
+          emailEditText, googleButton, passwordEditText, passwordIcon, register, usernameIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

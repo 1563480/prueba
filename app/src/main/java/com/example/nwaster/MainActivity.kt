@@ -77,6 +77,10 @@ class MainActivity : AppCompatActivity() {
             showRegister()
         }
 
+        btnResetPassword.setOnClickListener() {
+            showReset()
+        }
+
 
     }
     private fun showAlert() {
@@ -96,6 +100,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRegister() {
         val homeIntent = Intent(this, RegisterActivity::class.java).apply {
+        }
+        startActivity(homeIntent)
+    }
+
+    private fun showReset() {
+        val homeIntent = Intent(this, RecoverActivity::class.java).apply {
         }
         startActivity(homeIntent)
     }

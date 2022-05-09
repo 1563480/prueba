@@ -52,6 +52,10 @@
         "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_map_location.xml"
     },
     {
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recover.xml.flat",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_recover.xml"
+    },
+    {
         "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\merged_res\\debug\\drawable_manually.xml.flat",
         "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\drawable\\manually.xml"
     },

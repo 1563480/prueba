@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recover.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_recover.xml"
+    },
+    {
         "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_warehouse.xml",
         "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_warehouse.xml"
     },

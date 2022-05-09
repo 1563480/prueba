@@ -2850,6 +2850,7 @@ int id browser_actions_menu_item_icon 0x7f09006f
 int id browser_actions_menu_item_text 0x7f090070
 int id browser_actions_menu_items 0x7f090071
 int id browser_actions_menu_view 0x7f090072
+int id btnResetPassword 0x7f090259
 int id btn_submit 0x7f090073
 int id button 0x7f090258
 int id buttonPanel 0x7f090074
@@ -2937,6 +2938,7 @@ int id easeIn 0x7f0900c5
 int id easeInOut 0x7f0900c6
 int id easeOut 0x7f0900c7
 int id east 0x7f0900c8
+int id editPasswordReset 0x7f09025a
 int id editTextEmail 0x7f0900c9
 int id editTextName 0x7f0900ca
 int id editTextPassword 0x7f0900cb
@@ -3426,6 +3428,7 @@ int layout abc_tooltip 0x7f0c001b
 int layout activity_add_product_stock 0x7f0c001c
 int layout activity_addproduct 0x7f0c001d
 int layout activity_main 0x7f0c001e
+int layout activity_recover 0x7f0c0095
 int layout activity_register 0x7f0c001f
 int layout activity_stock 0x7f0c0020
 int layout bottom_nav 0x7f0c0021

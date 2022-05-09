@@ -2851,6 +2851,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnResetPassword
 id btn_submit
 id button
 id buttonPanel
@@ -2938,6 +2939,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editPasswordReset
 id editTextEmail
 id editTextName
 id editTextPassword
@@ -3427,6 +3429,7 @@ layout abc_tooltip
 layout activity_add_product_stock
 layout activity_addproduct
 layout activity_main
+layout activity_recover
 layout activity_register
 layout activity_stock
 layout bottom_nav
