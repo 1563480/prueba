@@ -4,6 +4,7 @@ package com.example.nwaster.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -24,12 +25,16 @@ public final class ActivityStockBinding implements ViewBinding {
   public final TextView addStock;
 
   @NonNull
+  public final Button button;
+
+  @NonNull
   public final ListView stockProducts;
 
   private ActivityStockBinding(@NonNull ConstraintLayout rootView, @NonNull TextView addStock,
-      @NonNull ListView stockProducts) {
+      @NonNull Button button, @NonNull ListView stockProducts) {
     this.rootView = rootView;
     this.addStock = addStock;
+    this.button = button;
     this.stockProducts = stockProducts;
   }
 
@@ -66,13 +71,19 @@ public final class ActivityStockBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
       id = R.id.stockProducts;
       ListView stockProducts = ViewBindings.findChildViewById(rootView, id);
       if (stockProducts == null) {
         break missingId;
       }
 
-      return new ActivityStockBinding((ConstraintLayout) rootView, addStock, stockProducts);
+      return new ActivityStockBinding((ConstraintLayout) rootView, addStock, button, stockProducts);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

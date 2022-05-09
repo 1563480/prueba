@@ -24,8 +24,8 @@ com/example/nwaster/ui/Lists/ListViewAdapter.java
  com.example.nwaster.ui.Lists.ListViewAdapter
 com/example/nwaster/databinding/ListRowBinding.java
  com.example.nwaster.databinding.ListRowBinding
-com/example/nwaster/databinding/ActivityMainBinding.java
- com.example.nwaster.databinding.ActivityMainBinding
+com/example/nwaster/databinding/ActivityAddProductStockBinding.java
+ com.example.nwaster.databinding.ActivityAddProductStockBinding
 com/example/nwaster/databinding/ActivityAddproductBinding.java
  com.example.nwaster.databinding.ActivityAddproductBinding
 com/example/nwaster/databinding/ShoppingListsBinding.java
@@ -38,11 +38,13 @@ com/example/nwaster/databinding/FragmentWarehouse2Binding.java
  com.example.nwaster.databinding.FragmentWarehouse2Binding
 com/example/nwaster/databinding/FragmentDietBinding.java
  com.example.nwaster.databinding.FragmentDietBinding
+com/example/nwaster/databinding/ActivityRecoverBinding.java
+ com.example.nwaster.databinding.ActivityRecoverBinding
 com/example/nwaster/databinding/FragmentWarehouseBinding.java
  com.example.nwaster.databinding.FragmentWarehouseBinding
 com/example/nwaster/databinding/FragmentDiet2Binding.java
  com.example.nwaster.databinding.FragmentDiet2Binding
 com/example/nwaster/databinding/NavHeaderBinding.java
  com.example.nwaster.databinding.NavHeaderBinding
-com/example/nwaster/databinding/ActivityAddProductStockBinding.java
- com.example.nwaster.databinding.ActivityAddProductStockBinding
+com/example/nwaster/databinding/ActivityMainBinding.java
+ com.example.nwaster.databinding.ActivityMainBinding

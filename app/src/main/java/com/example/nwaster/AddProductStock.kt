@@ -6,6 +6,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
@@ -19,14 +20,15 @@ import java.util.*
 import kotlin.collections.HashMap
 
 class AddProductStock : AppCompatActivity() {
-    var connection : FirebaseFirestore? = FirebaseFirestore.getInstance()
+    var connection: FirebaseFirestore? = FirebaseFirestore.getInstance()
         private set
+
     @SuppressLint("SimpleDateFormat")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_product_stock)
         val user = Firebase.auth.currentUser //Variable superglobal ? intentar eliminar el auth
-        val productos = hashMapOf<String,String>()
+        val productos = hashMapOf<String, String>()
         val productosStock = arrayListOf<String>()
         setup()
         var arrayAdapter: ArrayAdapter<*>
@@ -36,38 +38,50 @@ class AddProductStock : AppCompatActivity() {
                     productosStock.add(document.id)
                     val dateFormat: DateFormat = SimpleDateFormat("dd/MM/yyyy")
                     val fecha = Calendar.getInstance()
-                    fecha.add(Calendar.DATE,10)
-                    productos.put(document.id,dateFormat.format(fecha.time).toString())
+                    fecha.add(Calendar.DATE, 10)
+                    productos.put(document.id, dateFormat.format(fecha.time).toString())
                 }
                 val listProducts = findViewById<ListView>(R.id.listProducts)
-                arrayAdapter = ArrayAdapter(this,android.R.layout.simple_list_item_1, productosStock)
+                arrayAdapter =
+                    ArrayAdapter(this, android.R.layout.simple_list_item_1, productosStock)
                 listProducts.adapter = arrayAdapter
 
-                var arrayAux = connection!!.collection("users").document(user?.email.toString()).get().addOnSuccessListener { it ->
-                    var elementos:HashMap<String,String> = HashMap<String,String>()
-                    elementos = it.data?.getValue("productos") as HashMap<String, String>
+                var arrayAux =
+                    connection!!.collection("users").document(user?.email.toString()).get()
+                        .addOnSuccessListener { it ->
+                            var elementos: HashMap<String, String> = HashMap<String, String>()
+                            elementos = it.data?.getValue("productos") as HashMap<String, String>
 
 
-                    listProducts.setOnItemClickListener() {parent,view,position,id->
-                        //System.out.println(parent.getItemAtPosition(position).toString())
-                        if (user != null) {
-                            val dateFormat: DateFormat = SimpleDateFormat("dd/MM/yyyy")
-                            val fecha = Calendar.getInstance()
-                            fecha.add(Calendar.DATE,10)
-                            elementos.put(parent.getItemAtPosition(position).toString(),dateFormat.format(fecha.time).toString())
-                            connection!!.collection("users").document(user.email.toString()).update("productos",elementos)
+                            listProducts.setOnItemClickListener() { parent, view, position, id ->
+                                //System.out.println(parent.getItemAtPosition(position).toString())
+                                if (user != null) {
+                                    val dateFormat: DateFormat = SimpleDateFormat("dd/MM/yyyy")
+                                    val fecha = Calendar.getInstance()
+                                    fecha.add(Calendar.DATE, 10)
+                                    elementos.put(
+                                        parent.getItemAtPosition(position).toString(),
+                                        dateFormat.format(fecha.time).toString()
+                                    )
+                                    connection!!.collection("users").document(user.email.toString())
+                                        .update("productos", elementos)
+                                }
+                            }
                         }
-                    }
-                }
-                }
-                buttonback.setOnClickListener() {
-                    showBack()
-                }
             }
+
+        buttonback.setOnClickListener() {
+            showBack()
+        }
+
+
+    }
+
     private fun setup() {
         title = "Añadir producto al stock"
 
     }
+
     private fun showBack() {
         val homeIntent = Intent(this, HomeActivity::class.java).apply {
         }

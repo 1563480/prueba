@@ -1,106 +1,90 @@
 [
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recover.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_recover.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_warehouse.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_warehouse.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_warehouse.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_warehouse.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_row.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\list_row.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_addproduct.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_addproduct.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_diet.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_diet.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_nav.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\bottom_nav.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_addproduct.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\activity_addproduct.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_diet.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_diet.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_product_stock.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\activity_add_product_stock.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_product_stock.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_add_product_stock.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_diet2.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_diet2.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\listform.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\listform.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_main_2.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\nav_main_2.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_warehouse2.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_warehouse2.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_warehouse2.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_warehouse2.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_lists.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_lists.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\single_item.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\single_item.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_stock.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_stock.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\listform.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\listform.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_list_fragment.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\shopping_list_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_map_location.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_map_location.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_main.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\nav_main.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\single_item.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\single_item.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_lists.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_lists.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_list_products.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\shopping_list_products.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_list_products.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\shopping_list_products.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_lists.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\shopping_lists.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_lists.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\shopping_lists.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_map_location.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_map_location.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_list_fragment.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\shopping_list_fragment.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\nav_header.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_diet2.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\fragment_diet2.xml"
     },
     {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_main.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\nav_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_stock.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\activity_stock.xml"
-    },
-    {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_nav.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\bottom_nav.xml"
-    },
-    {
-        "merged": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_row.xml",
+        "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\layout\\list_row.xml"
     }
 ]

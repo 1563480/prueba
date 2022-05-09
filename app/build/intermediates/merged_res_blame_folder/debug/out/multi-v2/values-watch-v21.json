@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\ivan\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -44,6 +44,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.NWASTE" >
         <activity
+            android:name="com.example.nwaster.RecoverActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.nwaster.AddProductStock"
             android:exported="false" />
         <activity

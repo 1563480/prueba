@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
+            "outputFile": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
                         if (it.isSuccessful) {
                             showHome()
                             db.getUser(emailEditText.text.toString())
+                            db.deleteProduct(emailEditText.text.toString(),"Kinder Bueno")
                         } else {
                             showAlert()
                         }
@@ -76,6 +77,10 @@ class MainActivity : AppCompatActivity() {
             showRegister()
         }
 
+        btnResetPassword.setOnClickListener() {
+            showReset()
+        }
+
 
     }
     private fun showAlert() {
@@ -88,13 +93,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showHome() {
-        val homeIntent = Intent(this, BottomNavActivity::class.java).apply {
+        val homeIntent = Intent(this, AddProductStock::class.java).apply {
         }
         startActivity(homeIntent)
     }
 
     private fun showRegister() {
         val homeIntent = Intent(this, RegisterActivity::class.java).apply {
+        }
+        startActivity(homeIntent)
+    }
+
+    private fun showReset() {
+        val homeIntent = Intent(this, RecoverActivity::class.java).apply {
         }
         startActivity(homeIntent)
     }

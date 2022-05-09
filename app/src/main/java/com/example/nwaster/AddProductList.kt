@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
@@ -56,13 +57,13 @@ class AddProductList : AppCompatActivity() {
                         }
                     }
                 }
+
             }
         buttonback.setOnClickListener() {
             val returnIntent = Intent()
             returnIntent.putExtra("product_to_add", product_to_add)
             setResult(RESULT_OK, returnIntent)
             finish()
-
 
         }
     }

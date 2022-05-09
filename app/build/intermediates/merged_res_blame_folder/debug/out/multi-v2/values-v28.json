@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\f8c87bd590e52f20467f10404838ea62\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,248,343,441,529,617,705,793,880,967,1054",
-                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86",
-                        "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\ivan\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "14,15,19,23",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "1211,1298,1528,1770"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ivan\\.gradle\\caches\\transforms-3\\f8c87bd590e52f20467f10404838ea62\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,248,343,441,529,617,705,793,880,967,1054",
+                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86",
+                        "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136"
                     }
                 }
             ]
