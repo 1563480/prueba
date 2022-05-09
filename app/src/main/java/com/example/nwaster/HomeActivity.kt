@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.annotation.RequiresApi
@@ -38,14 +39,28 @@ class HomeActivity : AppCompatActivity() {
                     println(user.email)
                 }
 
-                var arrayProductos:HashMap<String,String> = result.data!!.getValue("productos") as HashMap<String, String>
-                var productosStock: Set<String> = arrayProductos.keys
 
-                val listStock = findViewById<ListView>(R.id.stockProducts)
-                arrayAdapter = ArrayAdapter(this,android.R.layout.simple_list_item_1, productosStock.toTypedArray())
-                listStock.adapter = arrayAdapter
+                if(result.data?.getValue("productos") != null) {
+                    var arrayProductos:HashMap<String,String> = result.data!!.getValue("productos") as HashMap<String, String>
+                    var productosStock: Set<String> = arrayProductos.keys
+                    val listStock = findViewById<ListView>(R.id.stockProducts)
+                    arrayAdapter = ArrayAdapter(this,android.R.layout.simple_list_item_1, productosStock.toTypedArray())
+                    listStock.adapter = arrayAdapter
+
+                    //Al clicar en un elemento se borra del stock y se añade a la lista de compra
+                    listStock.setOnItemClickListener(AdapterView.OnItemClickListener { _, _, position, id ->
+                        val item = arrayAdapter.getItem(position)
+                        db2.deleteProduct(user?.email.toString(),item.toString())
+                        finish()
+                        startActivity(getIntent())
+                    })
+                }
+
+
+
 
             }
+
 
 
         //val horaActual = Instant.now()

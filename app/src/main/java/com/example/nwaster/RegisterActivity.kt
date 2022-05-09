@@ -8,6 +8,7 @@ import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_register.*
 
 class RegisterActivity : AppCompatActivity() {
+    private val db = Database()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -20,6 +21,7 @@ class RegisterActivity : AppCompatActivity() {
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(editTextEmail.text.toString(), editTextPassword.text.toString()).addOnCompleteListener() {
                     if (it.isSuccessful) {
                         showHome()
+                        db.getUser(editTextEmail.text.toString())
                     } else {
                         showAlert()
                     }

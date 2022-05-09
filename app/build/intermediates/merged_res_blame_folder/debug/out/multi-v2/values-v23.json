@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\X550VX\\Desktop\\4 CURSO\\2 SEMESTRE\\LIS\\Prueba Nwaste GIT\\prueba\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\ivan\\StudioProjects\\prueba4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ivan\\.gradle\\caches\\transforms-3\\53787f4049f1a0dc98ead3032f483ee9\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\f8c87bd590e52f20467f10404838ea62\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ivan\\.gradle\\caches\\transforms-3\\f8c87bd590e52f20467f10404838ea62\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\X550VX\\.gradle\\caches\\transforms-3\\6acb8315d72e87c35294cf8cc6c95eee\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ivan\\.gradle\\caches\\transforms-3\\6acb8315d72e87c35294cf8cc6c95eee\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

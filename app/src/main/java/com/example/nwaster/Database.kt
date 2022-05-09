@@ -22,11 +22,13 @@ class Database {
     fun addUser(email : String) {
 
         if (this.connection!=null) {
-            val aux = hashMapOf<String, String>()
+            val products = hashMapOf<String, String>()
+            val shoppingList = arrayListOf<String>()
             this.connection!!.collection("users").document(email).set(
                 hashMapOf(
                     "email" to email,
-                    "productos" to aux
+                    "productos" to products,
+                    "listaCompra" to shoppingList
                 )
             )
         }
@@ -90,6 +92,33 @@ class Database {
             }
 
             return productos
+    }
+
+    //eliminar un producto del stock
+    fun deleteProduct(user: String, product:String) {
+        System.out.println("Eliminando "+product)
+
+
+        this.connection!!.collection("users").document(user).get()
+            .addOnCompleteListener { it ->
+                if(it.result.data?.getValue("productos") != null){
+                    val productos = it.result.data!!.getValue("productos") as HashMap<String,String>
+                    productos.remove(product)
+                    this.connection!!.collection("users").document(user).update("productos",productos)
+                    addProductToShoppingList(user,product)
+                }
+
+            }
+    }
+
+    // funcion para añadir un producto a la lista de compra
+    fun addProductToShoppingList(user:String, product:String){
+        this.connection!!.collection("users").document(user).get().addOnCompleteListener { it ->
+            val list = it.result!!.data!!.getValue("listaCompra") as ArrayList<String>
+            list.add(product)
+            this.connection!!.collection("users").document(user).update("listaCompra",list)
+        }
+
     }
 
 }
